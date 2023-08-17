@@ -1,0 +1,462 @@
+    1  17-Aug-2023 07:17:10 exit
+    2  17-Aug-2023 07:17:10 crontab -l
+    3  17-Aug-2023 07:17:10 cat /opt/91532/91532.sh
+    4  17-Aug-2023 07:17:10 clear
+    5  17-Aug-2023 07:17:10 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - 
+    6  17-Aug-2023 07:17:10 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+    7  17-Aug-2023 07:17:10 sudo apt-get update
+    8  17-Aug-2023 07:17:10 apt-cache policy docker-ce
+    9  17-Aug-2023 07:17:10 sudo apt-get install -y docker-ce
+   10  17-Aug-2023 07:17:10 sudo apt-get install -y docker-ce 
+   11  17-Aug-2023 07:17:10 ps aux | grep -i apt
+   12  17-Aug-2023 07:17:10 kill -9 3190 3197
+   13  17-Aug-2023 07:17:10 sudo apt-get install -y docker-ce 
+   14  17-Aug-2023 07:17:10 ps aux | grep -i apt
+   15  17-Aug-2023 07:17:10 sudo apt-get install -y docker-ce
+   16  17-Aug-2023 07:17:10 sudo apt-get update
+   17  17-Aug-2023 07:17:10 sudo apt-get install -y docker-ce 
+   18  17-Aug-2023 07:17:10 ps aux | grep -i apt
+   19  17-Aug-2023 07:17:10 kill -9 20933
+   20  17-Aug-2023 07:17:10 ps aux | grep -i apt
+   21  17-Aug-2023 07:17:10 sudo apt-get install -y docker-ce 
+   22  17-Aug-2023 07:17:10 reboot
+   23  17-Aug-2023 07:17:10 sudo apt-get install -y docker-ce 
+   24  17-Aug-2023 07:17:10 sudo systemctl status docker
+   25  17-Aug-2023 07:17:10 docker run hello-world 
+   26  17-Aug-2023 07:17:10 docker ps
+   27  17-Aug-2023 07:17:10 docker ps -a
+   28  17-Aug-2023 07:17:10 cd /opt/
+   29  17-Aug-2023 07:17:10 wget https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/3a/eclipse-jee-oxygen-3a-linux-gtk-x86_64.tar.gz 
+   30  17-Aug-2023 07:17:10 clear
+   31  17-Aug-2023 07:17:10 cd /opt/
+   32  17-Aug-2023 07:17:10 vi 91532/conf/server.xml 
+   33  17-Aug-2023 07:17:10 docker ps -a
+   34  17-Aug-2023 07:17:10 ll
+   35  17-Aug-2023 07:17:10 wget https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/3a/eclipse-jee-oxygen-3a-linux-gtk-x86_64.tar.gz&mirror_id=105
+   36  17-Aug-2023 07:17:10 ll
+   37  17-Aug-2023 07:17:10 rm -rf download.php\?file\=%2Ftechnology%2Fepp%2Fdownloads%2Frelease%2Foxygen%2F3a%2Feclipse-jee-oxygen-3a-linux-gtk-x86_64.tar.gz
+   38  17-Aug-2023 07:17:10 rm -rf download.php\?file\=%2Ftechnology%2Fepp%2Fdownloads%2Frelease%2Foxygen%2F3a%2Feclipse-jee-oxygen-3a-linux-gtk-x86_64.tar.gz.1 
+   39  17-Aug-2023 07:17:10 ll
+   40  17-Aug-2023 07:17:10 wget https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/3a/eclipse-jee-oxygen-3a-linux-gtk-x86_64.tar.gz&mirror_id=105
+   41  17-Aug-2023 07:17:10 wget https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/3a/eclipse-jee-oxygen-3a-linux-gtk-x86_64.tar.gz
+   42  17-Aug-2023 07:17:10 #https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/oxygen/3a/eclipse-jee-oxygen-3a-linux-gtk-x86_64.tar.gz&mirror_id=1
+   43  17-Aug-2023 07:17:10 sudo wget https://simplilearn-scripts.s3.amazonaws.com/Scripts/star_simplilearnlabs_com.key -P /opt/91532/conf/ssl/
+   44  17-Aug-2023 07:17:10 sudo wget https://simplilearn-scripts.s3.amazonaws.com/Scripts/_.simplilearnlabs.com.zip -P /opt/91532/conf/ssl/
+   45  17-Aug-2023 07:17:10 ll /opt/91532/conf/ssl/
+   46  17-Aug-2023 07:17:10 cd /opt/91532/conf/ssl/
+   47  17-Aug-2023 07:17:10 unzip _.simplilearnlabs.com.zip 
+   48  17-Aug-2023 07:17:10 ll
+   49  17-Aug-2023 07:17:10 cd ..
+   50  17-Aug-2023 07:17:10 vi server.xml 
+   51  17-Aug-2023 07:17:10 91532down 
+   52  17-Aug-2023 07:17:10 91532up 
+   53  17-Aug-2023 07:17:10 cd
+   54  17-Aug-2023 07:17:10 ll /etc/xrdp/simplilearn_logo_240x140.bmp
+   55  17-Aug-2023 07:17:10 sudo wget -O /etc/xrdp/simplilearn_logo_240x140.bmp https://corestacklabdisks.blob.core.windows.net/userscripts/simplilearn_logo_240x140.bmp
+   56  17-Aug-2023 07:17:10 ll /etc/xrdp/simplilearn_logo_240x140.bmp
+   57  17-Aug-2023 07:17:10 cat /etc/xrdp/xrdp.ini
+   58  17-Aug-2023 07:17:10 sudo rm /etc/xrdp/xrdp.ini
+   59  17-Aug-2023 07:17:10 sudo wget -O /etc/xrdp/xrdp.ini https://corestacklabdisks.blob.core.windows.net/userscripts/xrdp.ini
+   60  17-Aug-2023 07:17:10 sudo systemctl restart xrdp
+   61  17-Aug-2023 07:17:10 git --version
+   62  17-Aug-2023 07:17:10 cat /etc/xrdp/startwm.sh 
+   63  17-Aug-2023 07:17:10 mv /etc/xrdp/startwm.sh /mnt/
+   64  17-Aug-2023 07:17:10 vi /etc/xrdp/startwm.sh
+   65  17-Aug-2023 07:17:10 mv /mnt/startwm.sh /etc/xrdp/
+   66  17-Aug-2023 07:17:10 vi /etc/xrdp/startwm.sh 
+   67  17-Aug-2023 07:17:10 vi /etc/ssh/sshd_config
+   68  17-Aug-2023 07:17:10 vi /opt/sshd_config 
+   69  17-Aug-2023 07:17:10 chattr -i /opt/sshd_config 
+   70  17-Aug-2023 07:17:10 vi /opt/sshd_config 
+   71  17-Aug-2023 07:17:10 ll /opt/check_idletime.desktop
+   72  17-Aug-2023 07:17:10 cat /opt/check_idletime.desktop
+   73  17-Aug-2023 07:17:10 sudo wget -O /opt/check_idletime.py https://corestacklabdisks.blob.core.windows.net/userscripts/check_idletime.py
+   74  17-Aug-2023 07:17:10 sudo chmod +x /opt/check_idletime.py
+   75  17-Aug-2023 07:17:10 ll /opt/check_idletime.py
+   76  17-Aug-2023 07:17:10 sudo wget -O /opt/linux_idletime.py https://corestacklabdisks.blob.core.windows.net/userscripts/linux_idletime.py
+   77  17-Aug-2023 07:17:10 sudo chattr +i /opt/check_idletime.desktop /opt/linux_idletime.py /opt/check_idletime.py
+   78  17-Aug-2023 07:17:10 crontab -l
+   79  17-Aug-2023 07:17:10 chattr +i /opt/sshd_config 
+   80  17-Aug-2023 07:17:10 vi /etc/ssh/sshd_config 
+   81  17-Aug-2023 07:17:10 service sshd_restart
+   82  17-Aug-2023 07:17:10 service ssh restart
+   83  17-Aug-2023 07:17:10 vi /opt/ssh_service.sh
+   84  17-Aug-2023 07:17:10 service ssh status
+   85  17-Aug-2023 07:17:10 service sshd status
+   86  17-Aug-2023 07:17:10 vi /opt/ssh_service.sh
+   87  17-Aug-2023 07:17:10 chattr -i /opt/ssh_service.sh
+   88  17-Aug-2023 07:17:10 vi /opt/ssh_service.sh
+   89  17-Aug-2023 07:17:10 chattr +i /opt/ssh_service.sh
+   90  17-Aug-2023 07:17:10 vi /opt/ssh_port_change_run.sh 
+   91  17-Aug-2023 07:17:10 lsattr /opt/
+   92  17-Aug-2023 07:17:10 cd /opt/
+   93  17-Aug-2023 07:17:10 wget https://eclipse-sldevopslab.s3.amazonaws.com/eclipse-jee-oxygen-3a-linux-gtk-x86_64.tar.gz
+   94  17-Aug-2023 07:17:10 ll /opt/eclipse-java-oxygen-3a-linux-gtk-x86_64.tar.gz
+   95  17-Aug-2023 07:17:10 ll
+   96  17-Aug-2023 07:17:10 rm -rf download.php\?file\=%2Ftechnology%2Fepp%2Fdownloads%2Frelease%2Foxygen%2F3a%2Feclipse-jee-oxygen-3a-linux-gtk-x86_64.tar.gz
+   97  17-Aug-2023 07:17:10 rm -rf download.php\?file\=%2Ftechnology%2Fepp%2Fdownloads%2Frelease%2Foxygen%2F3a%2Feclipse-jee-oxygen-3a-linux-gtk-x86_64.tar.gz.1 
+   98  17-Aug-2023 07:17:10 wget 
+   99  17-Aug-2023 07:17:10 wget https://eclipse-sldevopslab.s3.amazonaws.com/eclipse-java-oxygen-3a-linux-gtk-x86_64.tar.gz
+  100  17-Aug-2023 07:17:10 mv eclipse-java-oxygen-3a-linux-gtk-x86_64.tar.gz /opt/
+  101  17-Aug-2023 07:17:10 rm -rf /opt/eclipse-jee-oxygen-3a-linux-gtk-x86_64.tar.gz 
+  102  17-Aug-2023 07:17:10 cd /opt/
+  103  17-Aug-2023 07:17:10 ll
+  104  17-Aug-2023 07:17:10 tar -zxvf eclipse-java-oxygen-3a-linux-gtk-x86_64.tar.gz 
+  105  17-Aug-2023 07:17:10 ls
+  106  17-Aug-2023 07:17:10 vi /opt/eclipse/eclipse.desktop
+  107  17-Aug-2023 07:17:10 ll /opt/eclipse/icon.xpm
+  108  17-Aug-2023 07:17:10 ll /opt/eclipse/eclipse.desktop
+  109  17-Aug-2023 07:17:10 chmod -R 755 /opt/eclipse/eclipse.desktop
+  110  17-Aug-2023 07:17:10 ll /opt/eclipse/eclipse.desktop
+  111  17-Aug-2023 07:17:10 wget https://simplilearn-scripts.s3.amazonaws.com/Scripts/ssh_service.sh -P /opt/
+  112  17-Aug-2023 07:17:10 wget https://simplilearn-scripts.s3.amazonaws.com/Scripts/ssh.tar.gz -P /opt/
+  113  17-Aug-2023 07:17:10 https://simplilearn-scripts.s3.amazonaws.com/Scripts/Tomcat_Run.sh -P /opt/
+  114  17-Aug-2023 07:17:10 wget https://simplilearn-scripts.s3.amazonaws.com/Scripts/Tomcat_Run.sh -P /opt/
+  115  17-Aug-2023 07:17:10 wget https://simplilearn-scripts.s3.amazonaws.com/Scripts/ssh_port_change_run.sh -P /opt/
+  116  17-Aug-2023 07:17:10 wget https://simplilearn-scripts.s3.amazonaws.com/Scripts/gui_run.sh -P /opt/
+  117  17-Aug-2023 07:17:10 wget https://simplilearn-scripts.s3.amazonaws.com/Scripts/guacd_run.sh -P /opt/
+  118  17-Aug-2023 07:17:10 sudo tar -C /opt/ -zxvf /opt/ssh.tar.gz
+  119  17-Aug-2023 07:17:10 sudo chmod +x /opt/ssh_service.sh
+  120  17-Aug-2023 07:17:10 sudo chmod +x /opt/cloudflare_dns_management_with_type.py
+  121  17-Aug-2023 07:17:10 sudo chmod +x /opt/guacd_run.sh
+  122  17-Aug-2023 07:17:10 sudo chmod +x /opt/gui_run.sh
+  123  17-Aug-2023 07:17:10 sudo chmod +x /opt/ssh_port_change_run.sh
+  124  17-Aug-2023 07:17:10 sudo chmod +x /opt/Tomcat_Run.sh
+  125  17-Aug-2023 07:17:10 sudo chattr +i /opt/guacd_run.sh
+  126  17-Aug-2023 07:17:10 sudo chattr +i /opt/gui_run.sh
+  127  17-Aug-2023 07:17:10 sudo chattr +i /opt/ssh_port_change_run.sh
+  128  17-Aug-2023 07:17:10 sudo chattr +i /opt/Tomcat_Run.sh
+  129  17-Aug-2023 07:17:10 sudo chattr +i /opt/sshd_config
+  130  17-Aug-2023 07:17:10 sudo chattr +i /opt/ssh_service.sh
+  131  17-Aug-2023 07:17:10 sudo chattr +i /opt/cloudflare_dns_management_with_type.py
+  132  17-Aug-2023 07:17:10 sudo crontab -l | { cat; echo "@reboot sleep 120; bash /opt/guacd_run.sh"; } | crontab -
+  133  17-Aug-2023 07:17:10 sudo crontab -l | { cat; echo "* * * * * bash /opt/Tomcat_Run.sh"; } | crontab -
+  134  17-Aug-2023 07:17:10 sudo crontab -l | { cat; echo "* * * * * bash /opt/gui_run.sh"; } | crontab -
+  135  17-Aug-2023 07:17:10 sudo crontab -l | { cat; echo "* * * * * bash /opt/ssh_port_change_run.sh"; } | crontab -
+  136  17-Aug-2023 07:17:10 sudo crontab -l | { cat; echo "* * * * * bash /opt/ssh_service.sh"; } | crontab -
+  137  17-Aug-2023 07:17:10 crontab -l
+  138  17-Aug-2023 07:17:10 crontab -e
+  139  17-Aug-2023 07:17:10 crontab -l
+  140  17-Aug-2023 07:17:10 ll xrdp_run.sh
+  141  17-Aug-2023 07:17:10 ll zabbix_run.sh
+  142  17-Aug-2023 07:17:10 mv xrdp_run.sh /opt/
+  143  17-Aug-2023 07:17:10 crontab -e
+  144  17-Aug-2023 07:17:10 crontab -l
+  145  17-Aug-2023 07:17:10 bash /opt/Tomcat_Run.sh
+  146  17-Aug-2023 07:17:10 91532down 
+  147  17-Aug-2023 07:17:10 bash /opt/Tomcat_Run.sh
+  148  17-Aug-2023 07:17:10 bash /opt/gui_run.sh
+  149  17-Aug-2023 07:17:10 cat /opt/gui_run.sh
+  150  17-Aug-2023 07:17:10 /etc/init.d/guacd status
+  151  17-Aug-2023 07:17:10 /etc/init.d/guacd stop
+  152  17-Aug-2023 07:17:10 bash /opt/gui_run.sh
+  153  17-Aug-2023 07:17:10 /etc/init.d/guacd status
+  154  17-Aug-2023 07:17:10 bash bash /opt/ssh_port_change_run.sh
+  155  17-Aug-2023 07:17:10 bash /opt/ssh_port_change_run.sh
+  156  17-Aug-2023 07:17:10 vi /etc/ssh/sshd_config 
+  157  17-Aug-2023 07:17:10 service sshd restart
+  158  17-Aug-2023 07:17:10 vi /etc/ssh/sshd_config 
+  159  17-Aug-2023 07:17:10 service sshd restart
+  160  17-Aug-2023 07:17:10 cat /opt/91532/91532.sh
+  161  17-Aug-2023 07:17:10 vi /opt/91532/91532.sh
+  162  17-Aug-2023 07:17:10 cat /opt/91532/91532.sh
+  163  17-Aug-2023 07:17:10 crontab -l
+  164  17-Aug-2023 07:17:10 bash /opt/guacd_run.sh
+  165  17-Aug-2023 07:17:10 cd /opt/
+  166  17-Aug-2023 07:17:10 ls
+  167  17-Aug-2023 07:17:10 ll
+  168  17-Aug-2023 07:17:10 tar xvzf config.tar.gz 
+  169  17-Aug-2023 07:17:10 ll
+  170  17-Aug-2023 07:17:10 nano /etc/sudoers
+  171  17-Aug-2023 07:17:10 reboot
+  172  17-Aug-2023 07:17:10 cat /etc/sudoers
+  173  17-Aug-2023 07:17:10 nano /etc/sudoers
+  174  17-Aug-2023 07:17:10 cat /etc/sudoers
+  175  17-Aug-2023 07:17:10 nano /etc/sudoers
+  176  17-Aug-2023 07:17:10 usermod -aG sudo zabbix
+  177  17-Aug-2023 07:17:10 clear
+  178  17-Aug-2023 07:17:10 reboot
+  179  17-Aug-2023 07:17:10 crontab -l
+  180  17-Aug-2023 07:17:10 crontab -e
+  181  17-Aug-2023 07:17:10 reboot
+  182  17-Aug-2023 07:17:10 crontab -l
+  183  17-Aug-2023 07:17:10 curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+  184  17-Aug-2023 07:17:10 sudo apt install nodejs
+  185  17-Aug-2023 07:17:10 node --version
+  186  17-Aug-2023 07:17:10 exit
+  187  17-Aug-2023 07:17:10 pip install pystache
+  188  17-Aug-2023 07:17:10 python -m easy_install pystache
+  189  17-Aug-2023 07:17:10 python3 easy_install pystache
+  190  17-Aug-2023 07:17:10 python3 -m easy_install pystache
+  191  17-Aug-2023 07:17:10 pip3 install pystache
+  192  17-Aug-2023 07:17:10 apt-get install python-pip
+  193  17-Aug-2023 07:17:10 ps -ef | grep apt
+  194  17-Aug-2023 07:17:10 kill -9 2708 2813 11060
+  195  17-Aug-2023 07:17:10 ps -ef | grep apt
+  196  17-Aug-2023 07:17:10 apt-get install python-pip
+  197  17-Aug-2023 07:17:10 pip install pystache
+  198  17-Aug-2023 07:17:10 clear
+  199  17-Aug-2023 07:17:10 wget https://s3.amazonaws.com/cloudformation-examples/aws-cfn-bootstrap-latest.tar.gz
+  200  17-Aug-2023 07:17:10 python -m easy_install --script-dir /opt/aws/bin aws-cfn-bootstrap-latest.tar.gz
+  201  17-Aug-2023 07:17:10 clear
+  202  17-Aug-2023 07:17:10 cd /opt/
+  203  17-Aug-2023 07:17:10 wget https://www.kernel.org/pub/software/scm/git/git-2.31.1.tar.xz
+  204  17-Aug-2023 07:17:10 tar -xf git-2.31.1.tar.xz
+  205  17-Aug-2023 07:17:10 cd git-2.31.1
+  206  17-Aug-2023 07:17:10 ./configure --prefix=/usr --with-gitconfig=/etc/gitconfig --with-python=python3 && make
+  207  17-Aug-2023 07:17:10 make perllibdir=/usr/lib/perl5/5.32/site_perl install
+  208  17-Aug-2023 07:17:10 git --version
+  209  17-Aug-2023 07:17:10 exit
+  210  16-Aug-2023 06:28:38 whoami
+  211  16-Aug-2023 06:28:40 ls
+  212  16-Aug-2023 06:29:58 cd
+  213  16-Aug-2023 06:30:00 ls
+  214  16-Aug-2023 06:30:03 cd /
+  215  16-Aug-2023 06:30:05 pwd
+  216  16-Aug-2023 06:30:07 ls
+  217  16-Aug-2023 06:31:02 pwd
+  218  16-Aug-2023 06:31:04 cd
+  219  16-Aug-2023 06:31:05 ls
+  220  16-Aug-2023 06:35:09 cd /root
+  221  16-Aug-2023 06:35:11 ls
+  222  16-Aug-2023 06:35:22 cd /home
+  223  16-Aug-2023 06:35:23 ls
+  224  16-Aug-2023 06:35:33 cd /username
+  225  16-Aug-2023 06:35:46 ls
+  226  16-Aug-2023 06:35:49 clear
+  227  16-Aug-2023 06:35:58 mkdir arun
+  228  16-Aug-2023 06:35:59 ls
+  229  16-Aug-2023 06:36:04 cd
+  230  16-Aug-2023 06:36:05 ls
+  231  16-Aug-2023 06:36:29 cd /home
+  232  16-Aug-2023 06:36:30 ls
+  233  16-Aug-2023 06:36:47 cd
+  234  16-Aug-2023 06:37:08 cd /
+  235  16-Aug-2023 06:37:09 ls
+  236  16-Aug-2023 06:37:12 cd bin
+  237  16-Aug-2023 06:37:13 ls
+  238  16-Aug-2023 06:39:14 clear
+  239  16-Aug-2023 06:39:15 ls
+  240  16-Aug-2023 06:39:18 clear
+  241  16-Aug-2023 06:39:22 ls
+  242  16-Aug-2023 06:39:28 cd sbin
+  243  16-Aug-2023 06:39:29 ls
+  244  16-Aug-2023 06:40:21 cd ..
+  245  16-Aug-2023 06:40:22 cd bin
+  246  16-Aug-2023 06:40:24 ls
+  247  16-Aug-2023 06:40:34 lesskey
+  248  16-Aug-2023 06:40:42 lesskey -o
+  249  16-Aug-2023 06:40:55 clear
+  250  16-Aug-2023 06:41:13 cd sbib
+  251  16-Aug-2023 06:41:18 cd /sbin
+  252  16-Aug-2023 06:41:20 ls
+  253  16-Aug-2023 06:41:44 reboot
+  254  16-Aug-2023 06:44:19 clear
+  255  16-Aug-2023 06:44:21 ls
+  256  16-Aug-2023 06:44:25 cd /
+  257  16-Aug-2023 06:44:26 ls
+  258  16-Aug-2023 06:44:38 cd home
+  259  16-Aug-2023 06:44:40 ls
+  260  16-Aug-2023 06:44:51 cd bin
+  261  16-Aug-2023 06:44:55 cd /bin
+  262  16-Aug-2023 06:44:56 ls
+  263  16-Aug-2023 06:45:02 cd /usr
+  264  16-Aug-2023 06:45:04 ls
+  265  16-Aug-2023 06:45:06 pwd
+  266  16-Aug-2023 06:45:15 clear
+  267  16-Aug-2023 06:45:16 ls
+  268  16-Aug-2023 06:45:18 clear
+  269  16-Aug-2023 06:45:19 cd ..
+  270  16-Aug-2023 06:45:20 ls
+  271  16-Aug-2023 06:45:57 cd /bin
+  272  16-Aug-2023 06:45:59 ls
+  273  16-Aug-2023 06:46:01 clear
+  274  16-Aug-2023 06:46:11 cd /usr/bin
+  275  16-Aug-2023 06:46:12 ls
+  276  16-Aug-2023 06:46:16 pwd
+  277  16-Aug-2023 06:46:19 cd ..
+  278  16-Aug-2023 06:46:21 pwd
+  279  16-Aug-2023 06:46:24 cd ..
+  280  16-Aug-2023 06:46:30 usr/local
+  281  16-Aug-2023 06:46:39 cd /usr/local
+  282  16-Aug-2023 06:46:40 ls
+  283  16-Aug-2023 06:46:44 cd bin
+  284  16-Aug-2023 06:46:45 ls
+  285  16-Aug-2023 06:49:14 exit
+  286  16-Aug-2023 06:51:34 cd /
+  287  16-Aug-2023 06:51:36 ls
+  288  16-Aug-2023 06:51:47 cd /usr/bin
+  289  16-Aug-2023 06:51:49 ls
+  290  16-Aug-2023 06:51:59 cd
+  291  16-Aug-2023 06:52:02 ls
+  292  16-Aug-2023 06:52:06 cd /
+  293  16-Aug-2023 06:52:18 cd /usr/local/bin
+  294  16-Aug-2023 06:52:20 ls
+  295  16-Aug-2023 06:52:24 ls -a
+  296  16-Aug-2023 06:53:40 which java
+  297  16-Aug-2023 06:54:14 dpkg -l | grep openjdk
+  298  16-Aug-2023 06:54:27 echo $JAVA_HOME
+  299  16-Aug-2023 06:55:26 export JAVA_HOME=/path/to/your/java/installation
+  300  16-Aug-2023 06:55:28 ls
+  301  16-Aug-2023 06:55:33 cd ,,
+  302  16-Aug-2023 06:55:36 cd ./
+  303  16-Aug-2023 06:55:40 cd ,,
+  304  16-Aug-2023 06:55:42 cd ..
+  305  16-Aug-2023 06:55:44 cd 
+  306  16-Aug-2023 06:55:46 ls
+  307  16-Aug-2023 06:55:50 clear
+  308  16-Aug-2023 06:56:14 cd /etc
+  309  16-Aug-2023 06:56:16 ls
+  310  16-Aug-2023 06:57:45 clear
+  311  16-Aug-2023 06:57:51 cd hostname
+  312  16-Aug-2023 06:57:55 cat hostname
+  313  16-Aug-2023 06:58:08 ip
+  314  16-Aug-2023 06:58:37 ip addr
+  315  16-Aug-2023 06:58:40 clear
+  316  16-Aug-2023 06:58:43 ifconfig
+  317  16-Aug-2023 06:58:53 ipconfig
+  318  16-Aug-2023 06:59:02 iconfig
+  319  16-Aug-2023 06:59:12 curl ifconfig.me
+  320  16-Aug-2023 06:59:19 clear
+  321  16-Aug-2023 06:59:19 cd
+  322  16-Aug-2023 06:59:40 cat /etc/hostname
+  323  16-Aug-2023 06:59:49 vim  /etc/hostname
+  324  16-Aug-2023 07:00:14 cat /etc/hostname
+  325  16-Aug-2023 07:00:53 cd /temp
+  326  16-Aug-2023 07:00:56 cd /
+  327  16-Aug-2023 07:00:58 ls
+  328  16-Aug-2023 07:01:01 cd temp
+  329  16-Aug-2023 07:01:06 cd tmp
+  330  16-Aug-2023 07:01:07 ls
+  331  16-Aug-2023 07:01:52 clear
+  332  16-Aug-2023 07:01:54 cd ..
+  333  16-Aug-2023 07:01:57 ls
+  334  16-Aug-2023 07:02:06 cd boot
+  335  16-Aug-2023 07:02:07 ls
+  336  16-Aug-2023 07:16:24 l
+  337  16-Aug-2023 07:17:05 cd grub
+  338  16-Aug-2023 07:17:06 ls
+  339  16-Aug-2023 07:17:42 cd ..
+  340  16-Aug-2023 07:17:51 pwd
+  341  16-Aug-2023 07:17:54 ls
+  342  16-Aug-2023 07:18:06 cd proc
+  343  16-Aug-2023 07:18:07 ls
+  344  16-Aug-2023 07:18:16 ls -ltr
+  345  16-Aug-2023 07:18:23 clear
+  346  16-Aug-2023 07:18:25 ls -a
+  347  16-Aug-2023 07:18:47 uptime
+  348  16-Aug-2023 07:18:54 cd 
+  349  16-Aug-2023 07:18:57 uptime
+  350  16-Aug-2023 07:19:15 free- m
+  351  16-Aug-2023 07:19:21 free -g
+  352  16-Aug-2023 07:19:24 free -m
+  353  16-Aug-2023 07:19:57 whoami
+  354  16-Aug-2023 07:20:00 clear
+  355  16-Aug-2023 07:30:43 touch dev{1..10}.txt
+  356  16-Aug-2023 07:30:45 ls
+  357  16-Aug-2023 07:31:17 exit
+  358  17-Aug-2023 05:24:32 clear
+  359  17-Aug-2023 05:24:33 ls
+  360  17-Aug-2023 05:24:36 cd /
+  361  17-Aug-2023 05:24:37 ls
+  362  17-Aug-2023 05:24:40 cd var
+  363  17-Aug-2023 05:24:42 ls
+  364  17-Aug-2023 05:24:56 cd log
+  365  17-Aug-2023 05:25:00 ls
+  366  17-Aug-2023 05:27:12 clear
+  367  17-Aug-2023 05:27:14 ls
+  368  17-Aug-2023 05:27:20 cat rsyslog
+  369  17-Aug-2023 05:27:55 clear
+  370  17-Aug-2023 05:31:32 cd
+  371  17-Aug-2023 05:31:34 ls
+  372  17-Aug-2023 05:31:40 exit
+  373  17-Aug-2023 07:16:26 cd /
+  374  17-Aug-2023 07:16:26 ls
+  375  17-Aug-2023 07:16:34 cd home
+  376  17-Aug-2023 07:16:36 ls
+  377  17-Aug-2023 07:16:59 cd
+  378  17-Aug-2023 07:17:01 exit
+  379  17-Aug-2023 07:17:11 ls
+  380  17-Aug-2023 07:17:13 cd ..
+  381  17-Aug-2023 07:17:19 ls
+  382  17-Aug-2023 07:17:24 cd tmp
+  383  17-Aug-2023 07:17:25 ls
+  384  17-Aug-2023 07:17:32 cat sysinfo.txt
+  385  17-Aug-2023 07:18:48 freesdsd -m
+  386  17-Aug-2023 07:19:44 ls | wc -l
+  387  17-Aug-2023 07:19:48 clear
+  388  17-Aug-2023 07:21:52 cd
+  389  17-Aug-2023 07:21:54 locate
+  390  17-Aug-2023 07:22:02 apt install locate
+  391  17-Aug-2023 07:22:15 locate
+  392  17-Aug-2023 07:22:21 locate arun
+  393  17-Aug-2023 07:22:24 clear
+  394  17-Aug-2023 07:22:49 updatedb
+  395  17-Aug-2023 07:22:56 clear
+  396  17-Aug-2023 07:39:36 ls
+  397  17-Aug-2023 07:39:42 clear
+  398  17-Aug-2023 07:56:04 cd
+  399  17-Aug-2023 07:56:06 ls
+  400  17-Aug-2023 07:56:08 cd ..
+  401  17-Aug-2023 07:56:10 ls
+  402  17-Aug-2023 07:56:11 clear
+  403  17-Aug-2023 07:56:16 cat /etc
+  404  17-Aug-2023 07:56:20 ls
+  405  17-Aug-2023 07:56:26 cd etc
+  406  17-Aug-2023 07:56:27 ls
+  407  17-Aug-2023 07:56:38 cat passwd
+  408  17-Aug-2023 07:56:44 clear
+  409  17-Aug-2023 07:56:47 cat passwd
+  410  17-Aug-2023 07:57:20 clear
+  411  17-Aug-2023 07:57:29 head -1 passwd
+  412  17-Aug-2023 07:58:29 grep  arun passwd
+  413  17-Aug-2023 07:59:30 cat group
+  414  17-Aug-2023 07:59:53 cat group | grep arun
+  415  17-Aug-2023 07:59:56 clear
+  416  17-Aug-2023 07:59:59 cat group | grep arun
+  417  17-Aug-2023 08:01:01 clelar
+  418  17-Aug-2023 08:01:03 clear
+  419  17-Aug-2023 08:01:09 useradd ansible
+  420  17-Aug-2023 08:01:15 useradd jenkins
+  421  17-Aug-2023 08:01:20 useradd aws
+  422  17-Aug-2023 08:01:26 ls
+  423  17-Aug-2023 08:01:30 cat passpd
+  424  17-Aug-2023 08:01:37 cat passwd
+  425  17-Aug-2023 08:01:48 cat passwd | head -4
+  426  17-Aug-2023 08:01:50 clear
+  427  17-Aug-2023 08:01:53 cat passwd | head -4
+  428  17-Aug-2023 08:02:10 cat passwd | rail  -4
+  429  17-Aug-2023 08:02:14 cat passwd | tail  -4
+  430  17-Aug-2023 08:10:32 id ansible
+  431  17-Aug-2023 08:10:37 id aws
+  432  17-Aug-2023 08:10:51 id arunkumarhs0811
+  433  17-Aug-2023 08:10:53 clea
+  434  17-Aug-2023 08:11:34 cat group | rail  -4
+  435  17-Aug-2023 08:11:41 cat group | tail  -4
+  436  17-Aug-2023 08:12:54 group add devops
+  437  17-Aug-2023 08:12:59 groupadd devops
+  438  17-Aug-2023 08:14:57 clear
+  439  17-Aug-2023 08:15:09 grep devops group
+  440  17-Aug-2023 08:15:12 clear
+  441  17-Aug-2023 08:15:26 usermod -aG ansible
+  442  17-Aug-2023 08:15:42 usermod -aG devops  ansible
+  443  17-Aug-2023 08:15:46 ls
+  444  17-Aug-2023 08:15:48 clear
+  445* 17-Aug-2023 08:15:55 id ansible 
+  446  17-Aug-2023 08:16:35 usermod -aG devops  ansible ,aws ,jenkins
+  447  17-Aug-2023 08:16:43 usermod -aG devops  aws
+  448  17-Aug-2023 08:16:48 usermod -aG devops jenkins
+  449  17-Aug-2023 08:16:55 grep devops
+  450  17-Aug-2023 08:17:07 grep devops *
+  451  17-Aug-2023 08:17:25 cler
+  452  17-Aug-2023 08:17:26 clear
+  453  17-Aug-2023 08:17:30 ls
+  454  17-Aug-2023 08:17:50 clear
+  455  17-Aug-2023 08:18:08 passwd ansible
+  456  17-Aug-2023 08:19:48 su -ansible
+  457  17-Aug-2023 08:19:55 su - ansible
+  458  17-Aug-2023 08:21:16 ls
+  459  17-Aug-2023 08:21:19 clear
+  460  17-Aug-2023 08:21:24 git init
+  461  17-Aug-2023 08:21:38 git remote add origin https://github.com/ArunKumar453/Linux_Commands.git
+  462  17-Aug-2023 08:22:06 history >> arun.txt
